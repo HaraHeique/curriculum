@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.capa {
+    color: white;
+}
+    .capa span {
+        color: #f27609;
+        display: block;
+    }
+    .capa section {
+        display: inline-block;
+        height: 600px;
+    }
+
+.profile-pic {
+    width: 40%;
+    text-align: center;
+
+    animation-name: profile-capa;
+    animation-duration: 3s;
+}
+    .profile-pic img {
+        width: 350px;
+        height: 350px;
+        border-radius: 350px;
+        margin-top: 100px;
+    }
+
+.profile-title {
+    vertical-align: top;
+    width: 59%;
+
+    animation-name: title-capa;
+    animation-duration: 3s;
+}
+    .profile-title h1 {
+        text-transform: uppercase;
+        font-size: 54px;
+        margin-top: 200px;
+        font-weight: 400;
+        line-height: 55px;
+    }
+    .profile-title h2 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -25px;
+    }
+
+.content {
+    padding: 50px 120px 60px 150px;
+
+    animation-name: content;
+	animation-duration: 3s;
+}
+    .content ul.breadcrumb {
+        list-style: none;
+        padding-left: 0;
+        color: whitesmoke;
+    }
+        .content ul.breadcrumb li {
+            display: inline-block;
+        }
+            .content ul.breadcrumb li span {
+                color: #f27609;
+                font-weight: 700;
+            }
+        .content ul.breadcrumb a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+            .content ul.breadcrumb a:hover {
+                font-weight: bold;
+            }
+    .content h1 {
+        color: white;
+        font-size: 32px;
+    }
+    .content h2 {
+        color: white;
+        font-size: 16px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+    .content h3 {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #f27609;
+        text-transform: uppercase;
+        
+    }
+    .content p {
+        color: whitesmoke;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .content .cv-pic {
+        width: 280px;
+        height: auto;
+        float: left;
+        margin: 25px 20px 20px auto;
+    }
+    .content .miniatura {
+        width: 320px;
+        height: 320px;
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+        .content .miniatura a {
+            text-decoration-line: none;
+        }
+        .content .miniatura .blackbox {
+            width: 100%;
+            height: 100%;
+            transition: 1s; 
+        }
+            .content .miniatura .blackbox:hover {
+                background-color: black;
+                opacity: 0.8;
+                transition: 1s;
+            }
+            .content .miniatura .blackbox .blackbox-text {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                transition: 0.5s;
+            }
+                .content .miniatura .blackbox .blackbox-text:hover {
+                    opacity: 1;
+                    transition: 1s;
+                }
+                .content .miniatura .blackbox .blackbox-text h1 {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    color: #f27609;
+                    margin-top: 0;
+                    padding-top: 40%;
+                    text-shadow: 4px 4px 5px black;
+                }
+                .content .miniatura .blackbox .blackbox-text h2 {
+                    opacity: 1;
+                    font-size: 16px;
+                    text-transform: none;
+                    font-weight: 400;
+                    margin-top: 0;
+                    text-shadow: 4px 4px 5px black;
+                }
+    .content .foto-trabalhos {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+.rede-social .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+    .rede-social .fa:hover {
+        opacity: 0.7;
+        transform: translateY(-10px);
+    }
+.rede-social .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.rede-social .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+a.link {
+    color: #f27609;
+}
+
+@media (max-width: 1000px) {
+    .capa section {
+        display: block;
+        height: auto;
+    }
+
+    .profile-pic {
+        width: 100%;
+    }
+        .profile-pic img {
+            margin-top: 0;
+            width: 280px;
+            height: 280px;
+            resize: both;
+        }
+    
+    .profile-title {
+        width: 100%;
+        text-align: center;
+    }
+        .profile-title h1 {
+            margin: 30px 20px 0px 20px;
+            font-size: 40px;
+        }
+        .profile-title h2 {
+            margin: 20px 20px 5px 20px;
+        }
+
+    .content {
+        padding: 10px 5% 40px 5%;
+    }
+        .content ul.breadcrumb {
+            display: none;
+        }
+        .content p {
+            line-height: 30px;
+        }
+        .content .cv-pic {
+            float: none;
+            max-width: 100%;
+            margin-top: 5px;
+            margin-bottom: -20px;
+        }
+        .content .miniatura {
+            max-width: 100%;
+        }
+            .content .miniatura .blackbox {
+                opacity: 0.8;
+                background-color: black;
+            }
+                .content .miniatura .blackbox .blackbox-text {
+                    opacity: 1;
+                }
+
+    .rede-social .fa:hover {
+        transform: none;
+    }
+}
+
+@keyframes profile-capa {
+    0% {opacity: 0; transform: translate(0px, 50px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+@keyframes title-capa {
+    0% {opacity: 0; transform: translate(0px, -50px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+@keyframes content {
+	0% {opacity: 0; transform: translate(-20px, 0px);}
+	100% {opacity: 1; transform: translate(0px, 0px);}
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Harã Heique - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="../css/general-styles.css">
+    <link type="text/css" rel="stylesheet" href="../css/menu-hambuguer.css">
+    <script type="text/javascript" src="../js/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="open">
+                <i class="fa fa-bars" aria-hidden="true" onclick="openNav()"></i>
+            </div>
+            <div class="slide-nav" id="slide-nav">
+                <div class="head">
+                    <div class="close">
+                        <i class="fa fa-times-circle" aria-hidden="true" onclick="closeNav()"></i>
+                    </div>
+                </div>
+                <ul class="topnav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="curriculo.html">Curriculum</a></li>
+                    <li><a href="contato.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                <li><span>Portfolio</span></li>
+            </ul>
+            <section class="portfolio-pics">
+                <h1>Portfolio</h1>
+
+                <div class="miniatura" style="background-image: url('../img/trabalhos/timeconnectGPP-miniatura.png');">
+                    <a href="projeto-timeconnectGPP.html">
+                        <div class="blackbox">
+                            <div class="blackbox-text">
+                                <h1>Time-Connect PPM</h1>
+                                <h2>Web Developer</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="miniatura" style="background-image: url('../img/trabalhos/fila-zero-miniatura.png');">
+                    <a href="projeto-filazero.html">
+                        <div class="blackbox">
+                            <div class="blackbox-text">
+                                <h1>Fila Zero</h1>
+                                <h2>Web Developer</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </section>
+            <aside>
+                <p>See More on my <a class="link" href="https://github.com/haraheique" target="_blank">GitHub</a></p>
+            </aside>
+        </section>
+    </main>
+</body>
+
+</html>

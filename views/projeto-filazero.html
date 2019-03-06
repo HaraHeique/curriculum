@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - Fila Zero</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="../css/general-styles.css">
+    <link type="text/css" rel="stylesheet" href="../css/menu-hambuguer.css">
+    <script type="text/javascript" src="../js/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="open">
+                <i class="fa fa-bars" aria-hidden="true" onclick="openNav()"></i>
+            </div>
+            <div class="slide-nav" id="slide-nav">
+                <div class="head">
+                    <div class="close">
+                        <i class="fa fa-times-circle" aria-hidden="true" onclick="closeNav()"></i>
+                    </div>
+                </div>
+                <ul class="topnav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="curriculo.html">Curriculum</a></li>
+                    <li><a href="contato.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                <li><span>Fila Zero</span></li>
+            </ul>
+            <article>
+                <h1>Fila Zero</h1>
+                <img class="foto-trabalhos" src="../img/trabalhos/filazero-homepage.png" alt="Fila Zero Homepage" title="Homepage">
+
+                <h2>About Project</h2>
+                <p>It consists of an integrated academic project. The reasons for choosing the proposed system are:
+                the population doesn't have to go to the health center without being sure of obtaining a certain drug, 
+                which would avoid huge queues for the request.</p>
+                <img class="foto-trabalhos" src="../img/trabalhos/filazero-loginatendente.png" alt="Fila Zero Login health care worker" title="Login health care worker">
+                
+                <p>Therefore, there are two sides of the system: population-focused, online orders without the need 
+                to move to the location, and focused on health care worker, who will use the system to control and 
+                manage the stock of drugs that are supplied to the population.</p>
+                <img class="foto-trabalhos" src="../img/trabalhos/filazero-cadastromedicamentos.png" alt="Fila Zero Register Drugs" title="Register drugs">
+
+                <p>The system developed is using web services, where the back-end/server provides an API that the 
+                front-end/client consumes. I've developed mostly on the front-end than back-end.</p>
+                <img class="foto-trabalhos" src="../img/trabalhos/filazero-gerarrelatorios.png" alt="Fila Zero generate report" title="Generate report">
+                <img class="foto-trabalhos" src="../img/trabalhos/filazero-gerarrelatorios2.png" alt="Fila Zero generate report 2" title="Generate report">
+
+                <p>In addition to being a promising system, unfortunately it was not possible to develop the whole system 
+                because of the complexity and size, only a large part of the stock control subsystem. However, I learned 
+                a lot design patterns, architecture and best practices. Right below are links with more details about 
+                the project (documentation, codes, business rules).</p>
+
+                <h2>Related links:</h2>
+                <p>
+                    <a class="link" href="https://docs.google.com/presentation/d/1UrmvfHpkkUF1ujDwcLQNgJ1IWDYhhyCwnNhIpdvS2Go/edit?usp=sharing" target="_blank">Work presentation Fila Zero</a><br>
+                    <a class="link" href="https://github.com/lukasg18/Topicos-Trabalho-BD2" target="_blank">Documentation Fila Zero</a><br>
+                    <a class="link" href="https://github.com/HaraHeique/frontend-POO-without-angular" target="_blank">Front-end code</a><br>
+                    <a class="link" href="https://github.com/lukasg18/poo2-backend" target="_blank">Back-end code</a><br>
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+
+
+</html>
