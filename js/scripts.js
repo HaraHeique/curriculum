@@ -1,7 +1,6 @@
 /* Definindos os eventos de aparecimento e desaparecimento do menu side-bar */
-
 function openNav() {
-	let slideNav = document.getElementById('slide-nav');
+	const slideNav = document.getElementById('slide-nav');
 	slideNav.classList.add('show-menu');
 
 	setTimeout(function () {
@@ -11,7 +10,7 @@ function openNav() {
 }
 
 function closeNav() {
-	let slideNav = document.getElementById('slide-nav');
+	const slideNav = document.getElementById('slide-nav');
 	slideNav.classList.remove('show-menu');
 }
 
@@ -20,4 +19,9 @@ function checkClickOutsideNav(event) {
 		closeNav();
 		document.removeEventListener('click', checkClickOutsideNav);
 	}
+}
+
+/* Imprimir a tela de currículo */
+function printScreen() {
+    window.print();
 }

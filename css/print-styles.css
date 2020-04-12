@@ -1,0 +1,10 @@
+@media print {
+    h1, h2, h3, p, a {
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    i {
+        display: none !important;
+    }
+ }

@@ -91,6 +91,10 @@ body {
         .content .dados-pessoais a:hover {
             text-decoration: underline;
         }
+            .content .dados-pessoais a i {
+                color: white;
+                font-size: 1.3rem;
+            }
     .content h1 {
         color: white;
         font-size: 32px;
@@ -245,6 +249,10 @@ a.link {
         .content .dados-pessoais a:link, a:visited {
             text-decoration: underline;
         }
+            .content .dados-pessoais a i {
+                color: white;
+                font-size: 1.2rem;
+            }
         .content p {
             line-height: 30px;
         }
