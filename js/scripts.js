@@ -7,7 +7,7 @@ function openNav() {
 	setTimeout(function () {
 		// Para quando clickar fora do menu e fechar o side-bar do mesmo jeito
 		document.addEventListener('click', checkClickOutsideNav);
-	}, 1000);
+	}, 500);
 }
 
 function closeNav() {

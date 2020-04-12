@@ -81,6 +81,16 @@ body {
             .content ul.breadcrumb a:hover {
                 font-weight: bold;
             }
+        
+    .content .dados-pessoais a {
+        color: white;
+    }
+        .content .dados-pessoais a:link, a:visited {
+            text-decoration: none;
+        }
+        .content .dados-pessoais a:hover {
+            text-decoration: underline;
+        }
     .content h1 {
         color: white;
         font-size: 32px;
@@ -111,6 +121,9 @@ body {
         height: auto;
         float: left;
         margin: 25px 20px 20px auto;
+    }
+    .content .projects {
+        text-align: auto;
     }
     .content .miniatura {
         width: 320px;
@@ -165,7 +178,6 @@ body {
                 }
     .content .foto-trabalhos {
         width: 100%;
-        /* max-width: 100%; */
         margin-top: 20px;
     }
 
@@ -206,7 +218,7 @@ a.link {
         width: 100%;
     }
         .profile-pic img {
-            margin-top: 0;
+            margin-top: 50px;
             width: 280px;
             height: 280px;
             resize: both;
@@ -230,6 +242,9 @@ a.link {
         .content ul.breadcrumb {
             display: none;
         }
+        .content .dados-pessoais a:link, a:visited {
+            text-decoration: underline;
+        }
         .content p {
             line-height: 30px;
         }
@@ -239,8 +254,13 @@ a.link {
             margin-top: 5px;
             margin-bottom: -20px;
         }
+        .content .projects {
+            text-align: center;
+        }
         .content .miniatura {
             max-width: 100%;
+            width: 270px;
+            height: 270px;
         }
             .content .miniatura .blackbox {
                 opacity: 0.8;
