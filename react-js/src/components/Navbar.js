@@ -1,0 +1,41 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Navbar = () => {
+  const openNav = (event) => {
+    event.preventDefault();
+
+    console.log("Cliquei para abrir menu lateral");
+  };
+
+  const closeNav = (event) => {
+    event.preventDefault();
+
+    console.log("Cliquei para fechar menu lateral");
+  };
+
+  return (
+    <header>
+      <nav>
+        <div className="open">
+          <i className="fa fa-bars" aria-hidden="true" onClick={openNav}></i>
+        </div>
+        <div className="slide-nav" id="slide-nav">
+          <div className="head">
+            <div className="close">
+              <i className="fa fa-times-circle" aria-hidden="true" onClick={closeNav}></i>
+            </div>
+          </div>
+          <ul className="topnav">
+            <li><Link to="/">Home</Link></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><Link to="/curriculum">Curriculum</Link></li>
+            <li><a href="contato.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  );
+};
+
+export default Navbar;
