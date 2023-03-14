@@ -8,7 +8,9 @@ export const useDocumentTitle = () => {
     const titlePrefix = "Harã Heique";
     const dynamicTitles = {
       "/": "Portfolio Online",
-      "/curriculum": "Curriculum"
+      "/portfolio": "Portfolio",
+      "/curriculum": "Curriculum",
+      "/contact": "Contact"
     };
 
     document.title = `${titlePrefix} - ${dynamicTitles[location.pathname]}`;
