@@ -2,7 +2,9 @@ import React from 'react';
 
 const Curriculum = () => {
   return (
-    <div>Curriculum</div>
+    <div>
+      <h2>Curriculum</h2>
+    </div>
   );
 };
 
