@@ -86,7 +86,7 @@ body {
         color: white;
     }
         .content .dados-pessoais a:link, a:visited {
-            text-decoration: none;
+            text-decoration: auto;
         }
         .content .dados-pessoais a:hover {
             text-decoration: underline;

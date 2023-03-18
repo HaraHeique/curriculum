@@ -1,8 +1,12 @@
 import './Curriculum.css';
 
+import curriculumData from '../assets/data/curriculum.data';
+
 import Breadcrumb from '../components/Breadcrumb';
 
 const Curriculum = () => {
+  const { personalInfo, education, skills, experiences, aboutMe, contact } = curriculumData;
+
   const printScreen = (event) => {
     event.preventDefault();
   };
@@ -23,97 +27,70 @@ const Curriculum = () => {
               </h2>
             </div>
             <hr />
-            <img className="cv-pic" src="../img/profile-photo.jpg" alt="Foto Harã Heique"
-              title="Profile Heik's Portfolio" />
+            <img className="cv-pic" src={personalInfo.profilePhoto} alt={personalInfo.fullName}
+              title={personalInfo.title} />
 
             <h3 style={{ marginTop: '40px' }}>Name:</h3>
-            <p>Harã Heique dos Santos</p>
+            <p>{personalInfo.fullName}</p>
 
             <h3>GitHub:</h3>
-            <p><a href="https://github.com/HaraHeique" target="_blank">HaraHeique</a></p>
+            <p><a href={personalInfo.github.link} target="_blank">{personalInfo.github.userName}</a></p>
 
             <h3>Birth Date:</h3>
-            <p>May 25th, 1996</p>
+            <p>{personalInfo.birthDate}</p>
 
             <h3 style={{ clear: 'left' }}>Residence:</h3>
-            <p>Serra, Brazil</p>
+            <p>{`${personalInfo.city}, ${personalInfo.country}`}</p>
 
             <h3>Languages:</h3>
-            <p>
-              Portuguese (Native)<br />
-              English (Advanced)
-            </p>
+            <p dangerouslySetInnerHTML={{ __html: personalInfo.languages.join('</br>') }}></p>
           </section>
           <section className="educacao">
             <h2>Education</h2>
             <hr />
-            <h3>2016-present</h3>
-            <p>Bachelor's Degree in Information Systems - Instituto Federal Espírito Santo (Brazil). Expected to finish in 2021.</p>
-
-            <h3>2015-2016</h3>
-            <p>Professional Technician in Industrial Automation - Instituto Federal Espírito Santo (Brazil).</p>
+            {
+              education.map(item => (
+                <>
+                  <h3>{item.period}</h3>
+                  <p>{item.course} - {item.school}</p>
+                </>
+              ))
+            }
           </section>
           <section className="habilidades">
             <h2>Skills</h2>
             <hr />
-            <h3>Development Tools</h3>
-            <p>Git | GitHub | Azure | Heroku | Firebase</p>
-
-            <h3>Development Programming Tools (Front-End)</h3>
-            <p>HTML | CSS | JavaScript | Typescript | jQuery | Angular</p>
-
-            <h3>Development Programming Tools (Back-End)</h3>
-            <p>C# | Python | Java | C | Ladder | ASP.NET | ASP.NET Core | Entity Framework | Entity Framework Core | PostgreSQL | SQL Server</p>
-
-            <h3>Programming Concepts</h3>
-            <p>Systems Modeling | UML | Clean Code | SOLID | DRY | KISS | DDD | MVC</p>
-
-            <h3>Digital Arts</h3>
-            <p>Photoscape | AutoCAD</p>
+            {
+              skills.map(item => (
+                <>
+                  <h3>{item.type}</h3>
+                  <p>{item.tools.join(' | ')}</p>
+                </>
+              ))
+            }
           </section>
           <section className="experiencia">
             <h2>Work Experience</h2>
             <hr />
-
-            <h3>2020-present</h3>
-            <p>Software Developer at Otimize IT Consulting and Services - Vitória (Brazil)</p>
-
-            <h3>2020-2020</h3>
-            <p>Web Developer at Time-Now Engenharia - Vitória (Brazil)</p>
-
-            <h3>2019-2020</h3>
-            <p>Profissional Internship at Time-Now Engenharia - Vitória (Brazil)</p>
-
-            <h3>2018-2019</h3>
-            <p>Profissional Internship at AEVO - Vitória (Brazil)</p>
-
-            <h3>2013-2014</h3>
-            <p>Young Apprentice in eletrical area - Vila Velha (Brazil)</p>
+            {
+              experiences.map(item => (
+                <>
+                  <h3>{item.period}</h3>
+                  <p>{item.position} at {item.company} - {item.location}</p>
+                </>
+              ))
+            }
           </section>
           <section className="sobre-mim">
-            <h2>A Little Bit About me</h2>
+            <h2>{aboutMe.title}</h2>
             <hr />
-            <p>I have a little less than 1 year of IT experience focused on systems development and
-              about 2 years in the electrical area for maintenance, installations, industrial instrumentation
-              and plant programming (just a little).</p>
-
-            <p>When I was finishing high school I had an interest in the electrical area, which I did
-              course of industrial automation with the intention of performing a graduation in this area.
-              However, I realized that the main electrical sub-areas I liked were very focused on IT,
-              mainly in the development and programming areas.</p>
-
-            <p>In 2016 I started my bachelor's degree in Information Systems at IFES (Campus Serra) and until
-              this moment I did not finish it. I'm also doing profissional internship in the area of ​​systems
-              development, where I like it and learn a lot.</p>
-
-            <p>Among all my hobbies, including the area of ​​development, are: exercising and practicing sports,
-              most of them, playing online games and watching animes and certain series/movies.</p>
+            <p dangerouslySetInnerHTML={{ __html: aboutMe.description }}></p>
           </section>
           <section className="contato">
             <h2>Contact</h2>
             <hr />
-            <p>heikacademicos@hotmail.com</p>
-            <p>+5527998808574</p>
+            <p><b>Email:</b> {contact.email}</p>
+            <p><b>Phone:</b> {contact.phoneNumber}</p>
           </section>
         </article>
       </section>
