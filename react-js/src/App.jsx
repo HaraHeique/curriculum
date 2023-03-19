@@ -5,9 +5,9 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useDocumentTitle } from './hooks/useDocumentTitle';
 
 import Home from './pages/Home';
-import Curriculum from './pages/Curriculum'; 
+import Curriculum from './pages/Curriculum/Curriculum'; 
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact/Contact';
 
 import Navbar from './components/Navbar';
 

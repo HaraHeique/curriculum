@@ -1,8 +1,8 @@
 import './Curriculum.css';
 
-import curriculumData from '../assets/data/curriculum.data';
+import curriculumData from '../../assets/data/curriculum.data';
 
-import Breadcrumb from '../components/Breadcrumb';
+import Breadcrumb from '../../components/Breadcrumb';
 
 const Curriculum = () => {
   const { personalInfo, education, skills, experiences, aboutMe, contact } = curriculumData;

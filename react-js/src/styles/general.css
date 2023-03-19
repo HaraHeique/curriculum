@@ -130,7 +130,8 @@ body {
         text-align: auto;
     }
     .content .miniatura {
-        width: 320px;
+        max-width: 320px;
+        width: 30%;
         height: 320px;
         display: inline-block;
         margin-right: 15px;

@@ -1,8 +1,8 @@
 import './Contact.css';
 
-import contactData from '../assets/data/contact.data';
+import contactData from '../../assets/data/contact.data';
 
-import Breadcrumb from '../components/Breadcrumb';
+import Breadcrumb from '../../components/Breadcrumb';
 
 const Contact = () => {
   const formatedEmails = contactData.emails.join('<br/>');
