@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import Breadcrumb from '../components/Breadcrumb';
 
 import portfolioData from '../assets/data/portfolio.data';
@@ -12,15 +14,14 @@ const Portfolio = () => {
           {
             portfolioData.projects.map(project => (
               <div key={project.id} className="miniatura" style={{ backgroundImage: `url(${project.image})` }}>
-                {/* Colocar <Link></Link> aí no local do href */}
-                <a href="#">
+                <Link to={`/project/${project.id}`}>
                   <div className="blackbox">
                     <div className="blackbox-text">
                       <h1>{project.projectName}</h1>
                       <h2>{project.role}</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             ))
           }
