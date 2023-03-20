@@ -26,8 +26,6 @@ const projectData = [
 ];
 
 async function readHTMLContentFile(filename) {
-  console.log(metallicaHtmlContent)
-
   return await fetch(filename)
     .then(response => response.text())
     .catch(error => console.error(error));

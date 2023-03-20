@@ -1,8 +1,7 @@
 import './Curriculum.css';
-
 import curriculumData from '../../assets/data/curriculum.data';
-
 import Breadcrumb from '../../components/Breadcrumb';
+import React from 'react';
 
 const Curriculum = () => {
   const { personalInfo, education, skills, experiences, aboutMe, contact } = curriculumData;
@@ -49,10 +48,10 @@ const Curriculum = () => {
           <hr />
           {
             education.map(item => (
-              <>
+              <React.Fragment key={item.course}>
                 <h3>{item.period}</h3>
                 <p>{item.course} - {item.school}</p>
-              </>
+              </React.Fragment>
             ))
           }
         </section>
@@ -61,10 +60,10 @@ const Curriculum = () => {
           <hr />
           {
             skills.map(item => (
-              <>
+              <React.Fragment key={item.type}>
                 <h3>{item.type}</h3>
                 <p>{item.tools.join(' | ')}</p>
-              </>
+              </React.Fragment>
             ))
           }
         </section>
@@ -73,10 +72,10 @@ const Curriculum = () => {
           <hr />
           {
             experiences.map(item => (
-              <>
+              <React.Fragment key={item.period}>
                 <h3>{item.period}</h3>
                 <p>{item.position} at {item.company} - {item.location}</p>
-              </>
+              </React.Fragment>
             ))
           }
         </section>
