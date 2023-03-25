@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom'; 
 import { useEffect } from 'react';
 
-export const useDocumentTitle = () => {
+export const useDocumentTitle = (title = null) => {
   const location = useLocation();
 
   useEffect(() => {
@@ -13,7 +13,11 @@ export const useDocumentTitle = () => {
       "/contact": "Contact"
     };
 
-    document.title = `${titlePrefix} - ${dynamicTitles[location.pathname]}`;
+    if (!title) {
+      document.title = `${titlePrefix} - ${dynamicTitles[location.pathname]}`;
+    } else if (location.pathname.startsWith('/project')) {
+      document.title = `Portfolio - ${title}`;
+    }
 
-  }, [location.pathname]);
+  }, [location.pathname, title]);
 };

@@ -16,5 +16,5 @@ export const useFetchProject = (id) => {
     }
   }, [id]);
 
-  return { project, content }
+  return { project, content };
 };

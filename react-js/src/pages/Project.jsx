@@ -2,10 +2,12 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import { useFetchProject } from "../hooks/useFetchProject";
+import { useDocumentTitle } from "../hooks/useDocumentTitle";
 
 const Project = () => {
   const { id } = useParams();
   const { project, content } = useFetchProject(id);
+  useDocumentTitle(project?.title);
 
   if (!project) return (<p>Carregando...</p>);
 

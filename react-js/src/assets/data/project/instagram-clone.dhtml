@@ -1,0 +1,10 @@
+<p>It's a simple project using the <a class="link" target="_blank" href="https://angular.io/">Angular</a> and
+    <a class="link" target="_blank" href="https://firebase.google.com/">Firebase</a> with the main purpose of learning.
+</p>
+
+<p>In this application you can basically create users and perform the authenticated login, in addition to making
+    photos/images publications, like in <a class="link" target="_blank" href="https://www.instagram.com/">Instagram</a>.
+    You can check details of the application click <a class="link" target="_blank"
+        href="https://haraheique.github.io/clone-instagram/">this link</a>.</p>
+<img class="foto-trabalhos" src="../../img/trabalhos/instagram-clone/instagram-post.png" alt="Instagram Publication"
+    title="Example of publication">
