@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/curriculum/static/css/main.1e24b7ce.css",
-    "main.js": "/curriculum/static/js/main.40d4cd93.js",
+    "main.js": "/curriculum/static/js/main.f314fc8e.js",
     "static/js/787.1cd43ffb.chunk.js": "/curriculum/static/js/787.1cd43ffb.chunk.js",
     "static/media/albums.png": "/curriculum/static/media/albums.3ccbb45fed806444ce93.png",
     "static/media/filazero-homepage.png": "/curriculum/static/media/filazero-homepage.4d15c01174e6549cd5dc.png",
@@ -22,11 +22,11 @@
     "index.html": "/curriculum/index.html",
     "static/media/metallica-albums.dhtml": "/curriculum/static/media/metallica-albums.9cf05136988ccb74913d.dhtml",
     "main.1e24b7ce.css.map": "/curriculum/static/css/main.1e24b7ce.css.map",
-    "main.40d4cd93.js.map": "/curriculum/static/js/main.40d4cd93.js.map",
+    "main.f314fc8e.js.map": "/curriculum/static/js/main.f314fc8e.js.map",
     "787.1cd43ffb.chunk.js.map": "/curriculum/static/js/787.1cd43ffb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e24b7ce.css",
-    "static/js/main.40d4cd93.js"
+    "static/js/main.f314fc8e.js"
   ]
 }
