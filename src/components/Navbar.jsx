@@ -1,17 +1,30 @@
 import React from 'react';
+import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  const slideNavElem = useRef();
+
   const openNav = (event) => {
     event.preventDefault();
+    slideNavElem.current.classList.add('show-menu');
 
-    console.log("Cliquei para abrir menu lateral");
+    setTimeout(function () {
+      // Para quando clickar fora do menu e fechar o side-bar do mesmo jeito
+      document.addEventListener('click', checkClickOutsideNav);
+    }, 500);
+
+    function checkClickOutsideNav(event) {
+      if (!event.target.classList.value.split(' ').some(elem => ['slide-nav', 'head'].includes(elem))) {
+        closeNav();
+        document.removeEventListener('click', checkClickOutsideNav);
+      }
+    }
   };
 
-  const closeNav = (event) => {
-    event.preventDefault();
-
-    console.log("Cliquei para fechar menu lateral");
+  const closeNav = (event = null) => {
+    event?.preventDefault();
+    slideNavElem.current.classList.remove('show-menu');
   };
 
   return (
@@ -20,7 +33,7 @@ const Navbar = () => {
         <div className="open">
           <i className="fa fa-bars" aria-hidden="true" onClick={openNav}></i>
         </div>
-        <div className="slide-nav" id="slide-nav">
+        <div ref={slideNavElem} className="slide-nav" id="slide-nav">
           <div className="head">
             <div className="close">
               <i className="fa fa-times-circle" aria-hidden="true" onClick={closeNav}></i>

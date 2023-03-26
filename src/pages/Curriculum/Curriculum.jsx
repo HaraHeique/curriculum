@@ -8,6 +8,7 @@ const Curriculum = () => {
 
   const printScreen = (event) => {
     event.preventDefault();
+    window.print();
   };
 
   return (
