@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter, BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* Usando HashRouter ao invés de BrowserRouter por causa de problemas de roteamento no gh pages */}
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
