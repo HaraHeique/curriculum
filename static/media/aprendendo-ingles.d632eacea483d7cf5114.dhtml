@@ -4,7 +4,7 @@
 <p>Basically is a game where the user translates a couple of words in english to portuguese (Brazil).
     I made this simple application when I was learning Angular from a course on <a class="link" target="_blank"
         href="https://www.udemy.com/">Udemy</a>.</p>
-<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/aprendendo-ingles/tela-perdeu.png" alt="You Lose"
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/master/src/assets/images/trabalhos/aprendendo-ingles/tela-perdeu.png" alt="You Lose"
     title="You Lost Screen">
-<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/aprendendo-ingles/tela-ganhou.png" alt="You Win"
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/master/src/assets/images/trabalhos/aprendendo-ingles/tela-ganhou.png" alt="You Win"
     title="You Won Screen">

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/curriculum/static/css/main.1e24b7ce.css",
-    "main.js": "/curriculum/static/js/main.f314fc8e.js",
+    "main.js": "/curriculum/static/js/main.06d4c58c.js",
     "static/js/787.1cd43ffb.chunk.js": "/curriculum/static/js/787.1cd43ffb.chunk.js",
     "static/media/albums.png": "/curriculum/static/media/albums.3ccbb45fed806444ce93.png",
     "static/media/filazero-homepage.png": "/curriculum/static/media/filazero-homepage.4d15c01174e6549cd5dc.png",
@@ -14,19 +14,19 @@
     "static/media/fila-zero-miniatura.png": "/curriculum/static/media/fila-zero-miniatura.e11ac3846cd401f20499.png",
     "static/media/profile-photo.jpg": "/curriculum/static/media/profile-photo.8369f5deb1d3da4846fa.jpg",
     "static/media/miniatura.png": "/curriculum/static/media/miniatura.a0fc47b5d14b59cd390e.png",
-    "static/media/devio-mvc.dhtml": "/curriculum/static/media/devio-mvc.11ff76f328370604cef8.dhtml",
-    "static/media/filazero.dhtml": "/curriculum/static/media/filazero.e05c1c4dc5349e55e8ee.dhtml",
-    "static/media/timeconnect.dhtml": "/curriculum/static/media/timeconnect.b9d442c33be10eca12df.dhtml",
-    "static/media/aprendendo-ingles.dhtml": "/curriculum/static/media/aprendendo-ingles.ddafaa7ab7de8897adf4.dhtml",
-    "static/media/instagram-clone.dhtml": "/curriculum/static/media/instagram-clone.8751eb85a5f270d56ed8.dhtml",
+    "static/media/devio-mvc.dhtml": "/curriculum/static/media/devio-mvc.520d3ce836eb9145347b.dhtml",
+    "static/media/filazero.dhtml": "/curriculum/static/media/filazero.21d2c85ac7187dcfb8d3.dhtml",
+    "static/media/timeconnect.dhtml": "/curriculum/static/media/timeconnect.ff90e67d58505ab9f13e.dhtml",
+    "static/media/aprendendo-ingles.dhtml": "/curriculum/static/media/aprendendo-ingles.d632eacea483d7cf5114.dhtml",
     "index.html": "/curriculum/index.html",
+    "static/media/instagram-clone.dhtml": "/curriculum/static/media/instagram-clone.bce0da14e942f97357f3.dhtml",
     "static/media/metallica-albums.dhtml": "/curriculum/static/media/metallica-albums.9cf05136988ccb74913d.dhtml",
     "main.1e24b7ce.css.map": "/curriculum/static/css/main.1e24b7ce.css.map",
-    "main.f314fc8e.js.map": "/curriculum/static/js/main.f314fc8e.js.map",
+    "main.06d4c58c.js.map": "/curriculum/static/js/main.06d4c58c.js.map",
     "787.1cd43ffb.chunk.js.map": "/curriculum/static/js/787.1cd43ffb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e24b7ce.css",
-    "static/js/main.f314fc8e.js"
+    "static/js/main.06d4c58c.js"
   ]
 }
