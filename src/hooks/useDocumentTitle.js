@@ -9,7 +9,7 @@ export const useDocumentTitle = (title = null) => {
     const dynamicTitles = {
       "/": "Portfolio Online",
       "/portfolio": "Portfolio",
-      "/curriculum": "Curriculum",
+      "/my-curriculum": "Curriculum",
       "/contact": "Contact"
     };
 

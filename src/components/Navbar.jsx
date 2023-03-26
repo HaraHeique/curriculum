@@ -42,7 +42,7 @@ const Navbar = () => {
           <ul className="topnav">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>
-            <li><Link to="/curriculum">Curriculum</Link></li>
+            <li><Link to="/my-curriculum">Curriculum</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
