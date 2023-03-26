@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/curriculum/static/css/main.1e24b7ce.css",
-    "main.js": "/curriculum/static/js/main.06d4c58c.js",
+    "main.js": "/curriculum/static/js/main.a619fadb.js",
     "static/js/787.1cd43ffb.chunk.js": "/curriculum/static/js/787.1cd43ffb.chunk.js",
     "static/media/albums.png": "/curriculum/static/media/albums.3ccbb45fed806444ce93.png",
     "static/media/filazero-homepage.png": "/curriculum/static/media/filazero-homepage.4d15c01174e6549cd5dc.png",
@@ -22,11 +22,11 @@
     "static/media/instagram-clone.dhtml": "/curriculum/static/media/instagram-clone.bce0da14e942f97357f3.dhtml",
     "static/media/metallica-albums.dhtml": "/curriculum/static/media/metallica-albums.9cf05136988ccb74913d.dhtml",
     "main.1e24b7ce.css.map": "/curriculum/static/css/main.1e24b7ce.css.map",
-    "main.06d4c58c.js.map": "/curriculum/static/js/main.06d4c58c.js.map",
+    "main.a619fadb.js.map": "/curriculum/static/js/main.a619fadb.js.map",
     "787.1cd43ffb.chunk.js.map": "/curriculum/static/js/787.1cd43ffb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e24b7ce.css",
-    "static/js/main.06d4c58c.js"
+    "static/js/main.a619fadb.js"
   ]
 }
