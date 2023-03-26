@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/curriculum/static/css/main.1e24b7ce.css",
+    "main.js": "/curriculum/static/js/main.1f2de7a1.js",
+    "static/js/787.1cd43ffb.chunk.js": "/curriculum/static/js/787.1cd43ffb.chunk.js",
+    "static/media/albums.png": "/curriculum/static/media/albums.3ccbb45fed806444ce93.png",
+    "static/media/filazero-homepage.png": "/curriculum/static/media/filazero-homepage.4d15c01174e6549cd5dc.png",
+    "static/media/produto-details.PNG": "/curriculum/static/media/produto-details.2c582cac58e847ae254f.PNG",
+    "static/media/timeconnect-GPP1.png": "/curriculum/static/media/timeconnect-GPP1.948647c3b91afdecd600.png",
+    "static/media/instagram-miniatura.png": "/curriculum/static/media/instagram-miniatura.9da94d32db4c695d8d99.png",
+    "static/media/homepage.png": "/curriculum/static/media/homepage.dfdd23259720ad62d09a.png",
+    "static/media/profile-home1.jpeg": "/curriculum/static/media/profile-home1.2545e847ab10100f4f7f.jpeg",
+    "static/media/timeconnectGPP-miniatura.png": "/curriculum/static/media/timeconnectGPP-miniatura.1ff5ac9e73fcbf497a1c.png",
+    "static/media/fila-zero-miniatura.png": "/curriculum/static/media/fila-zero-miniatura.e11ac3846cd401f20499.png",
+    "static/media/profile-photo.jpg": "/curriculum/static/media/profile-photo.8369f5deb1d3da4846fa.jpg",
+    "static/media/miniatura.png": "/curriculum/static/media/miniatura.a0fc47b5d14b59cd390e.png",
+    "static/media/devio-mvc.dhtml": "/curriculum/static/media/devio-mvc.11ff76f328370604cef8.dhtml",
+    "static/media/filazero.dhtml": "/curriculum/static/media/filazero.e05c1c4dc5349e55e8ee.dhtml",
+    "static/media/timeconnect.dhtml": "/curriculum/static/media/timeconnect.b9d442c33be10eca12df.dhtml",
+    "static/media/aprendendo-ingles.dhtml": "/curriculum/static/media/aprendendo-ingles.ddafaa7ab7de8897adf4.dhtml",
+    "static/media/instagram-clone.dhtml": "/curriculum/static/media/instagram-clone.8751eb85a5f270d56ed8.dhtml",
+    "index.html": "/curriculum/index.html",
+    "static/media/metallica-albums.dhtml": "/curriculum/static/media/metallica-albums.9cf05136988ccb74913d.dhtml",
+    "main.1e24b7ce.css.map": "/curriculum/static/css/main.1e24b7ce.css.map",
+    "main.1f2de7a1.js.map": "/curriculum/static/js/main.1f2de7a1.js.map",
+    "787.1cd43ffb.chunk.js.map": "/curriculum/static/js/787.1cd43ffb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e24b7ce.css",
+    "static/js/main.1f2de7a1.js"
+  ]
+}
