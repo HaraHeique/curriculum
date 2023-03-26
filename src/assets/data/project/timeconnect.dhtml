@@ -1,0 +1,26 @@
+<p>It consists of a private project, where the owner is <a class="link" target="_blank"
+        href="http://www.timenow.com.br/en/">Time-Now Engenharia</a>,
+    which is a company that promotes activities and services related to project management processes, especially for the
+    industrail area.</p>
+<p>All <a class="link" target="_blank" href="http://www.timenow.com.br/timeconnect/">Time-Connect</a> software was
+    develop by
+    <a class="link" target="_blank" href="http://www.aevo.com.br/">AEVO</a> (where I worked as a developer). However, it
+    is
+    currently developed by Time-Now.
+</p>
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/timeconnect/timeconnect-aevo1.jpg" alt="AEVO Image"
+    title="AEVO Company">
+
+<p>The software supports the company's three main types of services today, which are: PPM (Project Portfolio
+    Management),
+    IPM (Project Implementation Management) and IPSM (Industrial Plant Shutdown Management).</p>
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/timeconnect/timeconnect-portfolioprojetos.png"
+    alt="TimeConnect Portfolios" title="TimeConnect Projects Portfolio">
+<img style="width: 100%;" class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/timeconnect/timeconnect-aplicativomobile.png"
+    alt="TimeConnect Mobile App" title="TimeConnect Mobile App">
+
+<p>The main idea is that in a single environment it is possible to gather all the management data of the
+    projects, and it is possible that all stakeholders can access, from anywhere and anytime, the same information
+    in an accurate and reliable way.</p>
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/timeconnect/timeconnect-dashboards.png" alt="TimeConnect Dashbords"
+    title="TimeConnect Dashboards">

@@ -1,0 +1,38 @@
+<p>It is a simple system that consists of product management by suppliers. When a user registers and login into the
+    application he will basically register
+    suppliers and the products acquired by each supplier.</p>
+
+<p>The main technology used in this project was <a class="link" target="_blank"
+        href="https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0">ASP.NET MVC Core</a>,
+    which consists of using <a class="link" target="_blank"
+        href="https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-5.0&tabs=visual-studio">Razor</a>,
+    <a class="link" target="_blank" href="https://getbootstrap.com/">Bootstrap</a> and <a class="link" target="_blank"
+        href="https://jquery.com/">Jquery</a> in the front-end and
+    <a class="link" target="_blank" href="https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/">C#</a>, <a
+        class="link" target="_blank" href="https://docs.microsoft.com/en-us/ef/core/">EF Core</a>,
+    <a class="link" target="_blank"
+        href="https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-5.0&tabs=visual-studio">Identity
+        (user management)</a>
+    on the back end. Another important point also in this project is the use of <a class="link" target="_blank"
+        href="https://kisslog.net/"> KissLog</a>
+    to carry out issuance and management application logs from external framework.
+</p>
+
+<p>Even though it is a small system there are good practices, use of components and dependencies that are very commonly
+    applied for
+    small/medium size. The entire code was based on the great <a class="link" target="_blank"
+        href="https://desenvolvedor.io/dashboard">course</a>
+    of the <a class="link" target="_blank" href="https://www.eduardopires.net.br/">MVP Eduardo Pires</a>,
+    however there were minor changes in the front-end and considerable changes in the back-end made by me with the
+    intention of learning mainly in the considerably "new"
+    stack from Microsoft which is the .Net Core. Right below there are some images views from the developed app.</p>
+
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/devio-mvc/login-page.PNG" alt="Login page" title="Login Page">
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/devio-mvc/register-page.PNG" alt="Register page"
+    title="Register Page">
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/devio-mvc/fornecedor-index.PNG" alt="Supplier List"
+    title="List of Suppliers">
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/devio-mvc/produto-index.PNG" alt="Product List"
+    title="Product Edition">
+<img class="foto-trabalhos" src="https://raw.githubusercontent.com/HaraHeique/curriculum/feature/implementacao-com-react-js/src/assets/images/trabalhos/devio-mvc/fornecedor-edit.png" alt="Supplier Edit"
+    title="Supplier Edition">

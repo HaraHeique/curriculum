@@ -1,0 +1,11 @@
+<p>This is a really simple project made in pure <a class="link" target="_blank"
+    href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>,
+  <a class="link" target="_blank" href="https://jquery.com/">Jquery</a> and <a class="link" target="_blank"
+    href="https://getbootstrap.com/">Bootstrap</a>.
+</p>
+
+<p>When a card <i>Check Out</i> button is clicked redirect to <a class="link" target="_blank"
+    href="https://www.youtube.com/">Youtube</a> page with the
+  respective album. And when a card <i>Buy Now!</i> button is clicked redirect to <a class="link" target="_blank"
+    href="https://www.metallica.com/store/">Metallica store</a>.
+</p>
