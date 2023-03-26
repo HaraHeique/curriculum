@@ -1,7 +1,5 @@
 import './Contact.css';
-
 import contactData from '../../assets/data/contact.data';
-
 import Breadcrumb from '../../components/Breadcrumb';
 
 const Contact = () => {
@@ -9,7 +7,7 @@ const Contact = () => {
 
   return (
     <>
-      <Breadcrumb currentPage={Contact.name} />
+      <Breadcrumb currentPage="Contact" />
       <article className="personal-informations">
         <h1>Contact</h1>
         <section className="email">

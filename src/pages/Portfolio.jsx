@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom';
-
 import Breadcrumb from '../components/Breadcrumb';
-
 import portfolioData from '../assets/data/portfolio.data';
 
 const Portfolio = () => {
   return (
     <>
-      <Breadcrumb currentPage={Portfolio.name} />
+      <Breadcrumb currentPage="Portfolio" />
       <section className="portfolio-pics">
         <h1>Portfolio</h1>
         <div className="projects">

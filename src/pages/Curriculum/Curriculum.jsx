@@ -13,7 +13,7 @@ const Curriculum = () => {
 
   return (
     <>
-      <Breadcrumb currentPage={Curriculum.name} />
+      <Breadcrumb currentPage="Curriculum" />
       <article>
         <h1>Curriculum</h1>
         <section className="dados-pessoais">
