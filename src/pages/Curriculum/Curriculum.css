@@ -1,3 +1,18 @@
 .content .dados-pessoais a i.fa.fa-print:hover {
   color: #f27609 !important;
 }
+
+@media print {
+  h1,
+  h2,
+  h3,
+  p,
+  a {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
+  i {
+    display: none !important;
+  }
+}
