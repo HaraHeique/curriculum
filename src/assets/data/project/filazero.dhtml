@@ -1,20 +1,20 @@
 <p>It consists of an integrated academic project. The reasons for choosing the proposed system are:
     the population doesn't have to go to the health center without being sure of obtaining a certain drug,
     which would avoid huge queues for the request.</p>
-<img class="foto-trabalhos" src="../../img/trabalhos/filazero/filazero-loginatendente.png"
+<img class="foto-trabalhos" src="../../images/trabalhos/filazero/filazero-loginatendente.png"
     alt="Fila Zero Login health care worker" title="Login health care worker">
 
 <p>Therefore, there are two sides of the system: population-focused, online orders without the need
     to move to the location, and focused on health care worker, who will use the system to control and
     manage the stock of drugs that are supplied to the population.</p>
-<img class="foto-trabalhos" src="../../img/trabalhos/filazero/filazero-cadastromedicamentos.png"
+<img class="foto-trabalhos" src="../../images/trabalhos/filazero/filazero-cadastromedicamentos.png"
     alt="Fila Zero Register Drugs" title="Register drugs">
 
 <p>The system developed is using web services, where the back-end/server provides an API that the
     front-end/client consumes. I've developed mostly on the front-end than back-end.</p>
-<img class="foto-trabalhos" src="../../img/trabalhos/filazero/filazero-gerarrelatorios.png"
+<img class="foto-trabalhos" src="../../images/trabalhos/filazero/filazero-gerarrelatorios.png"
     alt="Fila Zero generate report" title="Generate report">
-<img class="foto-trabalhos" src="../../img/trabalhos/filazero/filazero-gerarrelatorios2.png"
+<img class="foto-trabalhos" src="../../images/trabalhos/filazero/filazero-gerarrelatorios2.png"
     alt="Fila Zero generate report 2" title="Generate report">
 
 <p>In addition to being a promising system, unfortunately it was not possible to develop the whole system
